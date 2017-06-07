@@ -1,0 +1,39 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               MRMXS Poole
+tagline:             "*******"
+#url:                 http://getpoole.com
+paginate:            10
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              mrmxs #Mark Otto
+  url:               https://github.com/mrmxs #https://twitter.com/mdo
+#  email:             markdotto@gmail.com
+
+# Custom vars
+version:             2.0.0
+github:
+  repo:              https://github.com/mrmxs/mrmxs.github.io #https://github.com/poole/poole
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+  - jemoji
+
+#addons idias from http://alexprivalov.org/setup-blog-on-github/#setup
+pages_list:
+  О блоге: '/about'
+  Архив записей: '/archive'
+  Лента: '/atom.xml'
